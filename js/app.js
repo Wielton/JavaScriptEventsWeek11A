@@ -33,7 +33,7 @@ function successFunction(response) {
     const playersDiv = document.getElementById('playerName');
     players.forEach(player => {
         const playerElement = document.createElement('p');
-        playerElement.innerText = `Player Name: ${player.first_name}`;
+        playerElement.innerText = `${player.first_name} ${player.last_name} ${player.position}`;
         playersDiv.append(playerElement);
     })
     }
