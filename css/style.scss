@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+header {
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+}
+#ADP {
+    grid-column: 3 / 4;
+    .playerCardImage{
+        height: 75px;
+        width: auto;
+    }
+}
+
+
+
